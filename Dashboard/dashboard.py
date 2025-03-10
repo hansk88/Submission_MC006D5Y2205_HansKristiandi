@@ -5,7 +5,6 @@ import seaborn as sns
 
 # Menampung file bicycle.csv ke dalam DataFrame
 bicycle_df = pd.read_csv("https://raw.githubusercontent.com/hansk88/Submission_MC006D5Y2205_HansKristiandi/refs/heads/main/Dashboard/bicycle.csv")
-bicycle_df = pd.read_csv("bicycle.csv")
 
 # Konversi tipe data pada kolom *dteday_by_hour
 bicycle_df["dteday_by_hour"] = pd.to_datetime(bicycle_df["dteday_by_hour"])
