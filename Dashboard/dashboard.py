@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Menampung file bicycle.csv ke dalam DataFrame
-bicycle_df = pd.read_csv("https://github.com/hansk88/Submission_MC006D5Y2205_HansKristiandi/Pandas_read_save_files/main/Dashboard/bicycle.csv")
+bicycle_df = pd.read_csv("https://raw.githubusercontent.com/hansk88/Submission_MC006D5Y2205_HansKristiandi/refs/heads/main/Dashboard/bicycle.csv")
 bicycle_df = pd.read_csv("bicycle.csv")
 
 # Konversi tipe data pada kolom *dteday_by_hour
