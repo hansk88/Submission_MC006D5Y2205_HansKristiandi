@@ -95,7 +95,7 @@ st.write(f"These are the visualized data for {year}")
 # Menampilkan grafik batang untuk tingkat penyewaan per musim
 st.subheader("Bike Rentals by Season")
 fig, ax = plt.subplots()
-colors_1 = ["#D3D3D3", "#72BCD4"]
+colors_1 = ["#D3D3D3", "#72BCD4", "#D3D3D3", "#D3D3D3"]
 sns.barplot(data=byseason_df,
             x="season_by_hour",
             y="cnt_by_hour",
